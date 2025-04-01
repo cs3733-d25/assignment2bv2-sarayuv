@@ -7,7 +7,7 @@ type listProps = {
 
 function List({person, bookList}: listProps){
     return (
-        <div>
+        <div className={"list1"}>
             {person.firstName}'s Favorite Books:
             <ol>
                 <li>{bookList[0]}</li>

@@ -37,3 +37,17 @@ ul li:first-child {
 .music-activity-list li {
     padding: 5px 0;
 }
+
+li:first-child{
+    color: #540773;
+    font-weight: bold;
+}
+
+.list1{
+    text-align: left;
+    align-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}

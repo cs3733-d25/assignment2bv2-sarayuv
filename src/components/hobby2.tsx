@@ -22,7 +22,7 @@ const tableBooks: BookInfo[] = [
 //Hobby takes in a person of type nameProp (a fullName) and a hobby of type string
 function Hobby({person, hobby}: hobbiesProp) {
     return (
-        <div>
+        <div className={"hobby2"}>
             <h2>{person.firstName}'s hobby is {hobby}</h2>
             <img src="public/books2b.jpg" width="640" alt="image of books on a shelf"/>
             <List person={person} bookList={["The Da Vinci Code", "Odd Thomas", "The Wee Free Men", "Harry Potter and the Order of the Phoenix", "The Twilight Saga"]} />

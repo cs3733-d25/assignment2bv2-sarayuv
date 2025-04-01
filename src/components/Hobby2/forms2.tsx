@@ -50,7 +50,7 @@ function Form(){
                     <option value="Fiction">Fiction</option>
                 </select>
                 <br/><br/>
-                <input type="submit" value="Submit"/>
+                <button type="submit" value="Submit">Submit Recommendation</button>
             </form>
         </div>
     )
