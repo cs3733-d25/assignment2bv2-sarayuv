@@ -3,8 +3,8 @@
 *DUE: Tuesday, April 2 by 11:59pm, but we will accept the assignment until April 3 at 11:59pm without penalty, if you need the extra day.  
 
 **Enter both of your names below. If we cannot figure out who did the assignment, we cannot grade it!**
-### Name: 
-### Name: 
+### Name: Sarayu Vijayanagaram
+### Name: Nora Cleary
 ---
 Use this assignment to get up to speed with React.js using the Webstorm IDE, and using Git with another person. When you have completed the assignment, make sure to push your repository to your assignment2b github repository. 
 
@@ -26,6 +26,3 @@ Use the App.css stylesheet for all components, except create a list.css and with
 * Use Webstorm to clone this repository on your computer.
   * Close any currently open projects.
   * Click on `Get from VCS` and enter the URL of your GitHub assignment2b repo
-
-
-
