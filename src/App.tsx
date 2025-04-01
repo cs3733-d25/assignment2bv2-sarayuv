@@ -19,8 +19,7 @@ function App() {
     return (
         <>
             <Title />
-            <Intro person={sarayu} />
-            <Intro person={nora} />
+            <Intro person={sarayu} person2={nora} />
             <Hobby1 />
             <Hobby person={nora} hobby={"reading"} />
         </>

@@ -9,7 +9,7 @@ type bookProp = {
 function Table({person, book}: bookProp) {
     return (
         <table className="collapse">
-            <caption>Books {person.firstName} has read this year</caption>
+            <caption id={"caption"}>Books {person.firstName} has read this year</caption>
             <tr>
                 <th>{book[0].title}</th>
                 <th>{book[0].author}</th>
