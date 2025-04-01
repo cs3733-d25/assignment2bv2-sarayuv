@@ -1,0 +1,39 @@
+.list-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list-container ul {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul li:first-child {
+    color: #96705B;
+    font-weight: bold;
+}
+
+.music-section {
+    margin-top: 10px;
+}
+
+.music-intro {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.music-activity-list {
+    list-style-type: square;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.music-activity-list li {
+    padding: 5px 0;
+}

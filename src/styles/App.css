@@ -1,42 +1,127 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.img-container img {
+  max-width: 640px;
+  height: auto;
+  display: inline-block;
+}
+
+/* Navbar */
+nav {
+  background-color: #3D314A;
+  padding: 10px 0;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.card {
-  padding: 2em;
+nav ul li a:hover {
+  background-color: #1A1423;
+  border-radius: 5px;
 }
 
-.read-the-docs {
-  color: #888;
+h1, h2, h3 {
+  color: #3D314A;
+  font-family: Verdana, serif;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  margin: 10px auto;
+  width: 80%;
+  line-height: 1.6;
+}
+
+/* Forms */
+form {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+form label {
+  font-weight: normal;
+}
+
+.bold-label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  background-color: #684756;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Tables */
+table.collapse {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+table.collapse th, table.collapse td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table.collapse th {
+  background-color: #AB8476;
 }
