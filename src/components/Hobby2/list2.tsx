@@ -1,4 +1,4 @@
-import {FullName} from "../../types";
+import {FullName} from "../../../types";
 
 type listProps = {
     person: FullName

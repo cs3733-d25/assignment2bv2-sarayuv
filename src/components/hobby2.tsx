@@ -1,8 +1,8 @@
 import {FullName} from "../../types";
 import {BookInfo} from "../../types";
-import List from "./list2";
-import Table from "./tables2"
-import Form from "./forms2"
+import List from "./Hobby2/list2";
+import Table from "./Hobby2/tables2"
+import Form from "./Hobby2/forms2"
 
 //create the attributes of the Hobby tag
 type hobbiesProp = {

@@ -1,5 +1,5 @@
-import {FullName} from "../../types";
-import {BookInfo} from "../../types";
+import {FullName} from "../../../types";
+import {BookInfo} from "../../../types";
 
 type bookProp = {
     person: FullName;
