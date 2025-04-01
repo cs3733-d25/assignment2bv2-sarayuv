@@ -1,4 +1,3 @@
-import React from "react";
 import {FullName} from "../../types.ts";
 
 type nameProp = {
