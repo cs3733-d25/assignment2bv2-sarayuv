@@ -1,19 +1,30 @@
-import React from "react";
 import Title from "./components/title";
 import Intro from "./components/intro";
 import Hobby1 from "./components/hobby1";
-import Hobby2 from "./components/hobby2";
+import Hobby from "./components/hobby2";
 import "./styles/App.css";
+import {FullName} from "../types.ts";
 
-const App: React.FC = () => {
+function App() {
+    const nora: FullName = {
+        firstName: "Nora",
+        lastName: "Cleary",
+    }
+
+    const sarayu: FullName = {
+        firstName: "Sarayu",
+        lastName: "Vijayanagaram",
+    }
+
     return (
-        <div className="App">
-            <Title hobby1="Music" hobby2="idk" />
-            <Intro name1="Sarayu" name2="Nora" />
+        <>
+            <Title />
+            <Intro person={sarayu} />
+            <Intro person={nora} />
             <Hobby1 />
-            <Hobby2 />
-        </div>
-    );
-};
+            <Hobby person={nora} hobby={"reading"} />
+        </>
+    )
+}
 
 export default App;
