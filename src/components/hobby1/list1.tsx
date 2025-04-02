@@ -1,21 +1,25 @@
-import React from "react";
-import "../../styles/list.css";
+import { FullName } from "../../../types";
 
-const List1: React.FC = () => {
+type listProps = {
+    person: FullName;
+    hobbyList: string[];
+};
+
+function List({ person, hobbyList }: listProps) {
     return (
-        <div>
-            <p>My favorite hobbies are anything to do with music:</p>
-            <ul className="list1">
-                <li>Playing in orchestra</li>
-                <li>Playing in small groups</li>
-                <li>Playing the violin</li>
-                <li>Arranging a piece</li>
-                <li>Composing a piece</li>
-                <li>Listening to songs</li>
-                <li>Learning to play the ukulele</li>
+        <div className={"list1"}>
+            {person.firstName}'s Favorite Hobbies:
+            <ul>
+                <li style={{color:"darkred"}}>{hobbyList[0]}</li>
+                <li>{hobbyList[1]}</li>
+                <li>{hobbyList[2]}</li>
+                <li>{hobbyList[3]}</li>
+                <li>{hobbyList[4]}</li>
+                <li>{hobbyList[5]}</li>
+                <li>{hobbyList[6]}</li>
             </ul>
         </div>
     );
-};
+}
 
-export default List1;
+export default List;

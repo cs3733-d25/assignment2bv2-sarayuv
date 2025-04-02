@@ -10,7 +10,7 @@ function List({person, bookList}: listProps){
         <div className={"list1"}>
             {person.firstName}'s Favorite Books:
             <ol>
-                <li>{bookList[0]}</li>
+                <li style={{color:"darkred"}}>{bookList[0]}</li>
                 <li>{bookList[1]}</li>
                 <li>{bookList[2]}</li>
                 <li>{bookList[3]}</li>

@@ -6,7 +6,7 @@ type bookProp = {
     book: BookInfo[];
 }
 
-function Table({person, book}: bookProp) {
+function Table2({person, book}: bookProp) {
     return (
         <table className="collapse">
             <caption id={"caption"}>Books {person.firstName} has read this year</caption>
@@ -39,4 +39,4 @@ function Table({person, book}: bookProp) {
     )
 }
 
-export default Table;
+export default Table2;

@@ -8,3 +8,9 @@ export type BookInfo = {
     author: string
     date: string
 }
+
+export type PieceInfo = {
+    composer: string
+    piece: string
+    genre: string
+}

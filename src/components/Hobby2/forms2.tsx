@@ -1,4 +1,4 @@
-function Form(){
+function Form2(){
     return(
         <div>
             <h2>Recommend a Book!</h2>
@@ -56,5 +56,4 @@ function Form(){
     )
 }
 
-export default Form;
-
+export default Form2;
